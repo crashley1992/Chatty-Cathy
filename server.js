@@ -13,6 +13,7 @@ let server = app.listen(4000, (err, data) => {
 //static files
 app.use(express.static('public'));
 
+
 //socket setup
 let io = socket(server);
 
