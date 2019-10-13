@@ -12,3 +12,4 @@ Functionality: Users can input their custom username and then type a message. Wh
 -lock in the ussername
 -add the ability to upload images/gifs
  
+ Link to published Page: https://crashley1992.github.io/Chatty-Cathy/public/index.html
