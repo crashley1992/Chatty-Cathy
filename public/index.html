@@ -7,16 +7,23 @@
     <title>Chat Cathy</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.4/socket.io.js"></script>
     <link href="/style.css" rel="stylesheet">
-    
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Goodle font used in title and send button-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!--Goodle font used for chat-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Source+Serif+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 id="title">Chatty Cathy</h1>
+    <input id="handle" type="text" placeholder="Username">
+
     <div id="chat-cathy">
         <div id="chat-window">
             <div id="output"></div>
         </div>
-        <input id="handle" type="text" placeholder="Handle">
         <input id="message" type="text" placeholder="Message">
-        <button id="send">Send</button>
+        <button id="send" class="btn btn-custom">Send</button>
         <div id="feedback"></div>
     </div>
     <script src="/chat.js"></script>
