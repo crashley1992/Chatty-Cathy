@@ -8,9 +8,9 @@ Functionality: Users can input their custom username and then type a message. Wh
 **To do**
 - make text clear input area after submitted
 - make overflow of messages scroll rather than push send message box down. 
--lock in the ussername
--add the ability to upload images/gifs
+-lock in the username
+-add the ability to upload images/gifs (gifs will be added via giphy api)
  
  Link to published Static Page: https://crashley1992.github.io/Chatty-Cathy/public/index.html
  
- **Please note that gitpages will only show static html page, website will not have node.js functionality 
+ **Please note that gitpages will only show static html page, website will not have node.js functionality.**
